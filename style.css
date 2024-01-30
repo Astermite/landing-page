@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 25px;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.logo {
+    margin-right:auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 204, 204);
+}
+
+.section {
+    height: 700px;
+    width: 100vh;
+}
