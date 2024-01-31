@@ -47,10 +47,24 @@ a {
 
 h1 {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 p {
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section.two div div div {
+    color: grey;
+    font-size: 18px;
 }
 
 button {
@@ -61,6 +75,7 @@ button {
 .section.two {
     flex-direction: column;
     gap: 100px;
+    background-color: whitesmoke;
 }
 
 .section.two div {
@@ -68,7 +83,7 @@ button {
     justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
-    flex: 0 0 200px
+    flex: 0 0 200px;
 }
 
 .section.two div div {
@@ -76,4 +91,28 @@ button {
     justify-content:center;
     text-align: center;
     margin: 10px;
+}
+
+.section.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e7eb;
+}
+
+.section.three div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px
+}
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoted {
+    font-weight: bold;
 }
