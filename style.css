@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -22,5 +25,15 @@ a {
 
 .section {
     height: 700px;
-    width: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.content div {
+    flex-basis: 400px;
 }
